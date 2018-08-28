@@ -131,48 +131,9 @@ a.btn:hover {
     margin-bottom: 0;
 }
 
-.header .social a {
-    color: rgba(255, 255, 255, 0.8);
-    display: inline-block;
-    text-align: center;
-    width: 32px;
-    height: 32px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    padding-top: 2px;
-    font-size: 16px;
-    border: 2px solid rgba(255, 255, 255, 0.8);
-}
 
-.header .social a:hover {
-    color: #fff;
-    border-color: #fff;
-}
 
-.header .actions {
-    position: absolute;
-    right: 15px;
-    top: 15px;
-}
 
-.header .actions .fa {
-    margin-right: 5px;
-}
-
-.header .actions a {
-    margin-right: 10px;
-    color: #fff;
-}
-
-.header .actions a:last-child {
-    margin-right: 0;
-}
 
 .header .profile-image {
     position: absolute;
