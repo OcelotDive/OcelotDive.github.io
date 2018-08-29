@@ -50,7 +50,7 @@ p {
 
 .btn,
 a.btn {
-    background: #008fa1;
+    background: #FF3333;
     color: #fff;
     padding: 8px 15px;
     -webkit-border-radius: 2px;
@@ -72,7 +72,7 @@ a.btn {
 .btn:hover,
 a.btn:hover {
     color: #fff;
-    background: #00a5bb;
+    background: #FF5555;
 }
 
 #topcontrol {
@@ -80,7 +80,7 @@ a.btn:hover {
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
-    background: #008fa1;
+    background: #FF3333;
     color: #fff;
     text-align: center;
     display: inline-block;
@@ -101,7 +101,7 @@ a.btn:hover {
 }
 
 #topcontrol:hover {
-    background: #007888;
+    background: #FF6666;
     color: #fff;
 }
 
@@ -113,7 +113,7 @@ a.btn:hover {
 }
 
 .header {
-    background: #00BCD4;
+    background: #FF7777;
     color: #fff;
 }
 
@@ -181,6 +181,7 @@ a.btn:hover {
     top: -80px;
     margin-left: -80px;
     left: 50%;
+	border-radius: 50%;
 }
 
 .header .name {
@@ -197,7 +198,7 @@ a.btn:hover {
 }
 
 .header .intro {
-    background: #00a5bb;
+    background: #FF6666;
     padding-top: 90px;
     padding-bottom: 30px;
     position: relative;
@@ -216,7 +217,7 @@ a.btn:hover {
 }
 
 .page-nav-wrapper {
-    background: #007888;
+    background: #FF3333;
     padding-top: 20px;
     padding-bottom: 20px;
     position: absolute;
@@ -233,7 +234,7 @@ a.btn:hover {
     left: 0;
     width: 100%;
     z-index: 100;
-    background: #00BCD4;
+    background: #FF3333;
 }
 
 .page-nav-wrapper a {
@@ -316,7 +317,7 @@ a.btn:hover {
 }
 
 .timeline {
-    border-left: 3px solid #00BCD4;
+    border-left: 3px solid #ff6666;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     position: relative;
@@ -350,7 +351,7 @@ a.btn:hover {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     background: #fff;
-    border: 3px solid #00BCD4;
+    border: 3px solid #ff6666;
 }
 
 .timeline .item:after {
@@ -369,7 +370,7 @@ a.btn:hover {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: #00BCD4;
+    background: #ff6666;
     z-index: 10;
 }
 
@@ -403,7 +404,7 @@ a.btn:hover {
 
 .timeline .job-meta .title {
     font-size: 18px;
-    color: #00BCD4;
+    color: #ff6666;
 }
 
 .timeline .job-meta .time {
@@ -453,7 +454,7 @@ a.btn:hover {
 }
 
 .chart-easy-pie {
-    positon: relative;
+    position: relative;
 }
 
 .chart {
@@ -512,7 +513,7 @@ a.btn:hover {
     width: 36px;
     height: 36px;
     display: inline-block;
-    background: #00BCD4;
+    background: #ff6666;
     color: #fff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -551,7 +552,7 @@ a.btn:hover {
 }
 
 .testimonials-section .carousel-indicators li.active {
-    background-color: #00BCD4;
+    background-color: #ff6666;
     width: 10px;
     height: 10px;
     margin: 0;
@@ -587,8 +588,8 @@ Portfolio Section
 }
 
 .portfolio-section .filters .type.active {
-    color: #00BCD4;
-    border-bottom: 2px solid #00BCD4;
+    color: #ff6666;
+    border-bottom: 2px solid #ff6666;
 }
 
 .portfolio-section .item {
@@ -641,7 +642,7 @@ Portfolio Section
 
 .portfolio-section .item-inner .content .action span {
     font-weight: 600;
-    color: #00BCD4;
+    color: #ff6666;
 }
 
 /**
@@ -680,7 +681,7 @@ Contact section start here
 }
 
 .contact-section .service-list .fa {
-    color: #00BCD4;
+    color: #ff6666;
 }
 
 .contact-section .social {
@@ -703,7 +704,7 @@ Contact section start here
 }
 
 .contact-section .social a:hover {
-    color: #00BCD4;
+    color: #ff666666;
 }
 
 .footer .container {
@@ -1037,7 +1038,7 @@ Contact section start here
 
 .book-section .category {
     font-size: 18px;
-    color: #00BCD4;
+    color: #ff6666;
     margin-top: 0;
     margin-bottom: 16px;
 }

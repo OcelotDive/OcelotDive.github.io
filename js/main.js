@@ -37,7 +37,9 @@ $(document).ready(function() {
     /* ======= Chart ========= */
 
     $('.chart').easyPieChart({
-		barColor:'#00BCD4',//Pie chart colour
+		barColor: function (percent) {
+       return (percent < 50 ? '#5cb85c' : percent < 85 ? '#f0ad4e' : '#cb3935');
+    },//Pie chart colour
 		trackColor: '#e8e8e8',
 		scaleColor: false,
 		lineWidth : 5,
