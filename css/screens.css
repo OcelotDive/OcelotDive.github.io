@@ -1,0 +1,207 @@
+
+
+
+
+
+
+.imageWrapper {
+    background-color: transparent;
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 20%;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0em;
+    padding-right: 0em;
+    width: 100%;
+	height: 45%;
+    margin-top: 1%;
+    overflow: hidden;
+    overflow-x: hidden;
+    -webkit-animation: myfade 3s;
+	-moz-animation: myfade 3s;
+	-ms-animation: myfade 3s;
+	-o-animation: myfade 3s;
+    animation: myfade 3s;
+    
+    
+}
+
+
+
+.screen{
+    float: left;
+    height: 10em;
+    margin: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+	margin-left: 1.82em;
+    width: 20em;
+    -webkit-transform: perspective(1000px);
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: .5s;
+	-moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -moz-transition: .5s;
+    -ms-transform: perspective(1000px);
+    -ms-transform-style: preserve-3d;
+    -ms-transition: .5s;
+	-o-transform: perspective(1000px);
+    -o-transform-style: preserve-3d;
+    -o-transition: .5s;
+    transform: perspective(1000px);
+    transform-style: preserve-3d;
+    transition: .5s;
+    border-radius: 5px;
+
+
+ 
+}
+
+.screen:hover {
+    
+    -webkit-transform: perspective(10000px) rotateX(90deg) translateY(-2em) translateZ(3em);
+	-moz-transform: perspective(10000px) rotateX(90deg) translateY(-2em) translateZ(3em);
+    -ms-transform: perspective(10000px) rotateX(90deg) translateY(-2em) translateZ(3em);
+	-o-transform: perspective(10000px) rotateX(90deg) translateY(-2em) translateZ(3em);
+	transform: perspective(10000px) rotateX(90deg) translateY(-2em) translateZ(3em);
+    
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.screenImage {
+    background-color: #222;
+    -webkit-box-shadow: 0 40px 30px -20px hsla(0, 0%, 0%, .25);
+	-moz-box-shadow: 0 40px 30px -20px hsla(0, 0%, 0%, .25);
+	-ms-box-shadow: 0 40px 30px -20px hsla(0, 0%, 0%, .25);
+	-o-box-shadow: 0 40px 30px -20px hsla(0, 0%, 0%, .25);
+     box-shadow: 0 40px 30px -20px hsla(0, 0%, 0%, .25);
+    display: block;
+    height: 100%;
+    
+    -webkit-transition: .5s;
+	-moz-transition: .5s;
+    -ms-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+
+
+}
+
+
+
+figcaption {
+    /*background-color: #000000;*/
+    color: #fff;
+    padding: 1.5em;
+    -webkit-transform: rotateX(-90deg);
+    -webkit-transform-origin: 100% 50%;
+    -webkit-transition: .5s;
+	-moz-transform: rotateX(-90deg);
+    -moz-transform-origin: 100% 50%;
+    -moz-transition: .5s;
+	-ms-transform: rotateX(-90deg);
+    -ms-transform-origin: 100% 50%;
+    -ms-transition: .5s;
+	-o-transform: rotateX(-90deg);
+    -o-transform-origin: 100% 50%;
+    -o-transition: .5s;
+	transform: rotateX(-90deg);
+    transform-origin: 100% 50%;
+    transition: .5s;
+
+   
+    -webkit-transform-origin: 100% 0%;
+	-moz-transform-origin: 100% 0%;
+	-ms-transform-origin: 100% 0%;
+	-o-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+   
+    
+    -webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
+background: rgb(76,76,76); /* Old browsers */ /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: -webkit-gradient(linear, left top, left bottom, from(rgba(76,76,76,1)),color-stop(12%, rgba(89,89,89,1)),color-stop(25%, rgba(102,102,102,1)),color-stop(39%, rgba(71,71,71,1)),color-stop(50%, rgba(44,44,44,1)),color-stop(51%, rgba(0,0,0,1)),color-stop(60%, rgba(17,17,17,1)),color-stop(76%, rgba(43,43,43,1)),color-stop(91%, rgba(28,28,28,1)),to(rgba(19,19,19,1)));
+background: -o-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
+background: linear-gradient(to bottom, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
+
+.screen:hover figcaption {
+    -webkit-box-shadow: 0 20px 15px -10px hsla(0, 0%, 0%, .25);
+	-moz-box-shadow: 0 20px 15px -10px hsla(0, 0%, 0%, .25);
+	-ms-box-shadow: 0 20px 15px -10px hsla(0, 0%, 0%, .25);
+	-o-box-shadow: 0 20px 15px -10px hsla(0, 0%, 0%, .25);
+    box-shadow: 0 20px 15px -10px hsla(0, 0%, 0%, .25);
+    
+}
+
+h5 {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.screenEnlarge{
+    text-align: center;
+	margin-top: 0.8em;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes myfade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity 1;
+    }
+}
+
+@keyframes myfade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity 1;
+    }
+}
+
+
+
+

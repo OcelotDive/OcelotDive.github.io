@@ -175,6 +175,7 @@ a.btn:hover {
 }
 
 .imageContainer {
+	
    position: absolute;
     width: 160px;
     height: 160px;
@@ -200,10 +201,6 @@ a.btn:hover {
     -moz-transform-origin: 0 100%;
     -ms-transform-origin: 0 100%;
     -o-transform-origin: 0 100%;
-    -webkit-transform-origin: 0 100%;
-    -moz-transform-origin: 0 100%;
-    -ms-transform-origin: 0 100%;
-    -o-transform-origin: 0 100%;
     transform-origin: 0 100%;
     -webkit-transition: transform .2s ease-out;
     -moz-transition: transform .2s ease-out;
@@ -219,6 +216,17 @@ a.btn:hover {
     overflow: hidden;
 }
 .imageContainer:hover {
+	position: absolute;
+    width: 160px;
+    height: 160px;
+    top: -80px;
+    margin-left: -80px;
+    left: 50%;
+	-webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    border-radius: 10%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -229,6 +237,7 @@ a.btn:hover {
     -ms-filter: grayscale(0%);
     -o-filter: grayscale(0%);
     filter: grayscale(0%);
+	border: solid 7px grey;
     -webkit-transition: transform .2s ease-out;
     -moz-transition: transform .2s ease-out;
     -ms-transition: transform .2s ease-out;
@@ -239,17 +248,21 @@ a.btn:hover {
     -ms-transform-origin: 0 100%;
     -o-transform-origin: 0 100%;
     transform-origin: 0 100%; 
-    -webkit-box-shadow: 0px 0px 0px transparent;
-    -moz-box-shadow: 0px 0px 0px transparent;
-    -ms-box-shadow: 0px 0px 0px transparent;
-    -o-box-shadow: 0px 0px 0px transparent;
-    box-shadow: 0px 0px 0px transparent;
-    
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -ms-box-shadow: 0px 0px 0px;
+    -o-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    overflow: hidden;
+	
+	
 }
 .header .profile-image {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 160px;
+    height: 160px;
+	top: 0%;
+	left: 0%;
    -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -269,6 +282,11 @@ a.btn:hover {
         
 }
 .header .profile-image:hover {
+	position: relative;
+    width: 160px;
+    height: 160px;
+	top: 0%;
+	left: 0%;
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     -ms-filter: grayscale(0%);
@@ -279,42 +297,20 @@ a.btn:hover {
     -ms-transform: scale(1.08) translateX(-8%) translateY(3%) rotateZ(2deg);
     -o-transform: scale(1.08) translateX(-8%) translateY(3%) rotateZ(2deg);
     transform: scale(1.08) translateX(-8%) translateY(3%) rotateZ(2deg);
-  -webkit-transition: transform .2s;
-    -moz-transition: transform .2s;
-    -ms-transition: transform .2s;
-    -o-transition: transform .2s;
-    transition: transform .2s;
+  -webkit-transition: transform .2s ease-out;
+    -moz-transition: transform .2s ease-out;
+    -ms-transition: transform .2s ease-out;
+    -o-transition: transform .2s ease-out;
+    transition: transform .2s ease-out;
+	-webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+	
 
 }
-.meImage:hover {
-    -webkit-filter: grayscale(0%);
-            filter: grayscale(0%);
-   -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-       transform: scale(1.05);
-    -webkit-box-shadow: 15px 15px 15px black;
-            box-shadow: 15px 15px 15px black;
-    
-}
-.meImage {
-    position: absolute;
-     width: 200px;
-     height: 200px;
-    -webkit-filter: grayscale(50%);
-    filter: grayscale(100%);
-    top: 4%;
-    left: 5%;
-    opacity: 0.7;
-    border-radius: 10%;
-    -webkit-animation: myfade 5s;
-    animation: myfade 5s; 
-    margin-bottom: 10%;
-   -webkit-transform: rotate(-20deg);
-    -ms-transform: rotate(-20deg);
-       transform: rotate(-20deg);
-    border: solid 7px #669999;
-  
-}
+
 
 .header .name {
     font-size: 48px;
@@ -1224,3 +1220,6 @@ Contact section start here
 .education-section .desc {
     color: #24292e;
 }
+
+
+/*work styles*/
