@@ -78,9 +78,7 @@
     <div class="top-bar container-fluid">
         <div class="actions">
            
-            <!--a class="btn"
-               href="https://docs.google.com/document/d/16mX34Q8wrkq-Ep0uNrZb1XDhMan0telgW8sqKSnyaq4"><i
-                    class="fa fa-download" aria-hidden="true"></i> Download My Resume</a-->
+           
         </div><!--//actions-->
       
     </div><!--//top-bar-->
@@ -95,12 +93,8 @@
             <div class="profile">
                 <p id="bioParagraph">
                     
-                <p/>
-                <!--p>
-                    Has over 7 years of working experience in the software development field, building projects for the
-                    web and IoT platforms, using different programming tools like Python, PHP, JavaScript,
-                    Shell, HTML & CSS.
-                </p-->
+                </p>
+            
             </div><!--//profile-->
         </div><!--//container-->
     </div><!--//intro-->
@@ -356,7 +350,7 @@
     <section id="portfolio-section" class="portfolio-section section">
         <h2 class="section-title">Portfolio</h2>
         <ul id="filters" class="filters clearfix">
-            <li id="mainLI" class="type" data-filter="*">All</li>
+            <li id="mainLI" class="type active" data-filter="*">All</li>
             <li class="type" data-filter=".work">Work</li>
             <li class="type" data-filter=".web">Web App</li>
             <li class="type" data-filter=".open-source">Open Source</li>
@@ -818,7 +812,7 @@
 <script type="text/javascript">
 	let mainLI = document.getElementById('mainLI');
 		setTimeout(()=> {
-		mainLI.addClass('active');
+		mainLI.click();
 		},5000);
 	</script>	
 <script type="text/javascript">
