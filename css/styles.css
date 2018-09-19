@@ -292,11 +292,11 @@ a.btn:hover {
     -ms-filter: grayscale(0%);
     -o-filter: grayscale(0%);
     filter: grayscale(0%);
-    -webkit-transform: scale(1.08) translateX(-8%) translateY(3%) rotateZ(2deg);
+    /*-webkit-transform: scale(1.08) translateX(-8%) translateY(3%) rotateZ(2deg);
     -moz-transform: scale(1.08) translateX(-8%) translateY(3%) rotateZ(2deg);
     -ms-transform: scale(1.08) translateX(-8%) translateY(3%) rotateZ(2deg);
     -o-transform: scale(1.08) translateX(-8%) translateY(3%) rotateZ(2deg);
-    transform: scale(1.08) translateX(-8%) translateY(3%) rotateZ(2deg);
+    transform: scale(1.08) translateX(-8%) translateY(3%) rotateZ(2deg);*/
   -webkit-transition: transform .2s ease-out;
     -moz-transition: transform .2s ease-out;
     -ms-transition: transform .2s ease-out;
