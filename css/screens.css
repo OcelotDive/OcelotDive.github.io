@@ -76,11 +76,8 @@
 
 .screenImage {
     background-color: #222;
-    -webkit-box-shadow: 0 40px 30px -20px hsla(0, 0%, 0%, .25);
-	-moz-box-shadow: 0 40px 30px -20px hsla(0, 0%, 0%, .25);
-	-ms-box-shadow: 0 40px 30px -20px hsla(0, 0%, 0%, .25);
-	-o-box-shadow: 0 40px 30px -20px hsla(0, 0%, 0%, .25);
-     box-shadow: 0 40px 30px -20px hsla(0, 0%, 0%, .25);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
     display: block;
     height: 100%;
     
@@ -135,12 +132,17 @@ figcaption {
 	transform-style: preserve-3d;
 
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
-background: rgb(76,76,76); /* Old browsers */ /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: -webkit-gradient(linear, left top, left bottom, from(rgba(76,76,76,1)),color-stop(12%, rgba(89,89,89,1)),color-stop(25%, rgba(102,102,102,1)),color-stop(39%, rgba(71,71,71,1)),color-stop(50%, rgba(44,44,44,1)),color-stop(51%, rgba(0,0,0,1)),color-stop(60%, rgba(17,17,17,1)),color-stop(76%, rgba(43,43,43,1)),color-stop(91%, rgba(28,28,28,1)),to(rgba(19,19,19,1)));
-background: -o-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
-background: linear-gradient(to bottom, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+background: #41295a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+
+
+
 }
 
 .screen:hover figcaption {

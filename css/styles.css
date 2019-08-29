@@ -28,7 +28,7 @@ h6 {
 }
 
 a {
-    color: #00BCD4;
+    color: #d80f6b;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -37,7 +37,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #007888;
+    color: #ff0000;
 }
 
 a:focus {
@@ -50,7 +50,8 @@ p {
 
 .btn,
 a.btn {
-    background: #FF3333;
+   /* background: #FF3333;*/
+    background: #390283;
     color: #fff;
     padding: 8px 15px;
     -webkit-border-radius: 2px;
@@ -72,7 +73,7 @@ a.btn {
 .btn:hover,
 a.btn:hover {
     color: #fff;
-    background: #FF5555;
+    background: #d80f6b;
 }
 
 #topcontrol {
@@ -80,7 +81,8 @@ a.btn:hover {
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
-    background: #FF3333;
+   /* background: #FF3333; */
+    background: #390283;
     color: #fff;
     text-align: center;
     display: inline-block;
@@ -101,7 +103,7 @@ a.btn:hover {
 }
 
 #topcontrol:hover {
-    background: #FF6666;
+    background: #d80f6b;
     color: #fff;
 }
 
@@ -113,7 +115,8 @@ a.btn:hover {
 }
 
 .header {
-    background: #FF7777;
+   /* background: #FF7777; */
+    background-image: linear-gradient(-90deg, #390283 49%, #d80f6b 99%);
     color: #fff;
 }
 
@@ -182,11 +185,11 @@ a.btn:hover {
     top: -80px;
     margin-left: -80px;
     left: 50%;
-	-webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    border-radius: 10%;
+	-webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+    border-radius: 15%;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -207,12 +210,8 @@ a.btn:hover {
     -ms-transition: transform .2s ease-out;
     -o-transition: transform .2s ease-out;
     transition: transform .2s ease-out;
-    border: solid 7px grey;
-    -webkit-box-shadow: 0px 15px 15px black;
-    -moz-box-shadow: 0px 15px 15px black;
-    -ms-box-shadow: 0px 15px 15px black;
-    -o-box-shadow: 0px 15px 15px black;
-    box-shadow: 0px 15px 15px black;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
     overflow: hidden;
 }
 .imageContainer:hover {
@@ -222,11 +221,11 @@ a.btn:hover {
     top: -80px;
     margin-left: -80px;
     left: 50%;
-	-webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    border-radius: 10%;
+	-webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+    border-radius: 15%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -237,7 +236,6 @@ a.btn:hover {
     -ms-filter: grayscale(0%);
     -o-filter: grayscale(0%);
     filter: grayscale(0%);
-	border: solid 7px grey;
     -webkit-transition: transform .2s ease-out;
     -moz-transition: transform .2s ease-out;
     -ms-transition: transform .2s ease-out;
@@ -248,13 +246,10 @@ a.btn:hover {
     -ms-transform-origin: 0 100%;
     -o-transform-origin: 0 100%;
     transform-origin: 0 100%; 
-    -webkit-box-shadow: 0px 0px 0px;
-    -moz-box-shadow: 0px 0px 0px;
-    -ms-box-shadow: 0px 0px 0px;
-    -o-box-shadow: 0px 0px 0px;
-    box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0);
     overflow: hidden;
-	
+
 	
 }
 .header .profile-image {
@@ -326,7 +321,8 @@ a.btn:hover {
 }
 
 .header .intro {
-    background: #FF6666;
+   /* background: #FF6666; */
+    background-image: linear-gradient(-90deg, #390283 49%, #d80f6b 99%);
     padding-top: 90px;
     padding-bottom: 30px;
     position: relative;
@@ -345,7 +341,8 @@ a.btn:hover {
 }
 
 .page-nav-wrapper {
-    background: #FF3333;
+   /* background: #FF3333; */
+    background-color: rgb(16, 27, 39);
     padding-top: 20px;
     padding-bottom: 20px;
     position: absolute;
@@ -362,7 +359,8 @@ a.btn:hover {
     left: 0;
     width: 100%;
     z-index: 100;
-    background: #FF3333;
+  /*  background: #FF3333; */
+   background: rgb(16, 27, 39)
 }
 
 .page-nav-wrapper a {
@@ -445,7 +443,7 @@ a.btn:hover {
 }
 
 .timeline {
-    border-left: 3px solid #ff6666;
+    border-left: 3px solid #390283;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     position: relative;
@@ -479,7 +477,7 @@ a.btn:hover {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     background: #fff;
-    border: 3px solid #ff6666;
+    border: 3px solid #390283;
 }
 
 .timeline .item:after {
@@ -498,7 +496,7 @@ a.btn:hover {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: #ff6666;
+    background: #390283;
     z-index: 10;
 }
 
@@ -532,7 +530,8 @@ a.btn:hover {
 
 .timeline .job-meta .title {
     font-size: 18px;
-    color: #ff6666;
+   /* color: #ff6666; */
+    color: #390283;
 }
 
 .timeline .job-meta .time {
@@ -641,7 +640,8 @@ a.btn:hover {
     width: 36px;
     height: 36px;
     display: inline-block;
-    background: #ff6666;
+    /*background: #ff6666; */
+    background: #390283;
     color: #fff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -680,7 +680,8 @@ a.btn:hover {
 }
 
 .testimonials-section .carousel-indicators li.active {
-    background-color: #ff6666;
+  /*  background-color: #ff6666; */
+    background-color: #390283;
     width: 10px;
     height: 10px;
     margin: 0;
@@ -716,8 +717,10 @@ Portfolio Section
 }
 
 .portfolio-section .filters .type.active {
-    color: #ff6666;
-    border-bottom: 2px solid #ff6666;
+    /*color: #ff6666; */
+    color: #390283;
+  /*  border-bottom: 2px solid #ff6666; */
+    border-bottom: 2px solid #390283; 
 }
 
 .portfolio-section .item {
@@ -770,7 +773,8 @@ Portfolio Section
 
 .portfolio-section .item-inner .content .action span {
     font-weight: 600;
-    color: #ff6666;
+   /* color: #ff6666; */
+    color: #390283;
 }
 
 /**
@@ -809,7 +813,7 @@ Contact section start here
 }
 
 .contact-section .service-list .fa {
-    color: #ff6666;
+    color: #390283;
 }
 
 .contact-section .social {
@@ -1166,7 +1170,8 @@ Contact section start here
 
 .book-section .category {
     font-size: 18px;
-    color: #ff6666;
+   /* color: #ff6666; */
+    color: #390283;
     margin-top: 0;
     margin-bottom: 16px;
 }
