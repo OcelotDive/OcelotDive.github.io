@@ -60,5 +60,5 @@ function typewriter()
 setTimeout(()=> {
 typewriter();
 
-}, 1000)
+}, 200)
 
