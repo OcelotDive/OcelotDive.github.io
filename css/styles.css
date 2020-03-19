@@ -233,7 +233,6 @@ a.btn:hover {
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
-	transform: scale(1.2) rotateZ(calc(11 * 1deg));
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     -ms-filter: grayscale(0%);
