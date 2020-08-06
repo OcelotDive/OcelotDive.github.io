@@ -3,7 +3,7 @@
 
 // set up text to print, each item in array is new line
 
-let t1 = 'Working as a front end sports screen developer with 5 years commercial experience.';
+let t1 = 'Working as a front end sports screen developer with 5+ years commercial experience.';
 t1 = t1.bold();
 let t2 = 'With a love of problem solving and developing applications across a range of frameworks.';
 t2 = t2.bold();
