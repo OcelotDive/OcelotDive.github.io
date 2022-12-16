@@ -3,12 +3,12 @@
 
 // set up text to print, each item in array is new line
 
-let t1 = 'Working as a front-end / full stack developer for Adviserplus Business Solutions with 8+ years commercial experience.';
+let t1 = 'Working as a front-end / full stack developer for Shout Digital with 10+ years commercial experience.';
 t1 = t1.bold();
 let t2 = 'With a love of problem solving and developing applications across a range of frameworks.';
 t2 = t2.bold();
 var bioText = new Array(
-t1, t2, 'I am most comfortable with Javascript and its many frameworks but have also coded in other languages such as C# and SQL Server. Currently active on Github, Codewars and a contributor and moderator for FreeCodeCamp.org.'
+t1, t2, 'I currently specialize in remote development with Javascript and its many frameworks but have also code in other languages such as C# and SQL Server. Currently active in the open source community and a contributor and moderator for FreeCodeCamp.org.'
 );
 /*var bioText = new Array('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.'); */
 

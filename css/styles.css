@@ -792,6 +792,8 @@ Contact section start here
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-left: 2%;
+    padding-right: 2%;
  }
 
  .contact-title {
@@ -1194,3 +1196,9 @@ Contact section start here
         display: none;
         }
       }
+
+    @media only screen and (max-width: 1000px) {
+        .location {
+            display: none;
+        }
+    }
