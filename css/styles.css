@@ -18,6 +18,11 @@ body, html{
     height: 100%;
     min-height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
 }
 
 h1,
@@ -147,6 +152,7 @@ a.btn:hover {
     filter: grayscale(100%);
     overflow: hidden;
     background: grey;
+    
 }
 
 .header .profile-image {
@@ -1202,3 +1208,9 @@ Contact section start here
             display: none;
         }
     }
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+    
