@@ -152,7 +152,7 @@ a.btn:hover {
     filter: grayscale(100%);
     overflow: hidden;
     background: grey;
-    
+    border-radius: 8px;   
 }
 
 .header .profile-image {
@@ -173,7 +173,9 @@ a.btn:hover {
     -moz-transform-origin: 0 100%;
     -ms-transform-origin: 0 100%;
     -o-transform-origin: 0 100%;
-    transform-origin: 0 100%;     
+    transform-origin: 0 100%;
+    border-radius: 8px;
+ 
 }
 
 .header .name {
