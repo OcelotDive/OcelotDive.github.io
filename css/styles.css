@@ -34,6 +34,15 @@ h6 {
     font-weight: 500;
 }
 
+.sub-sub-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    text-align: left !important;
+    width: 100%;
+}
+
 a {
     color: #d80f6b;
     -webkit-transition: all 0.4s ease-in-out;
