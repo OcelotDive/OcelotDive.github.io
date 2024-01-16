@@ -63,8 +63,6 @@ padding-top: 1em;
 padding-bottom: 1em;
 padding-left: 0em;
 padding-right: 0em;
-overflow: hidden;
-overflow-x: hidden;
 height: inherit;
 -webkit-animation: myfade 3s;
 -moz-animation: myfade 3s;
@@ -81,6 +79,25 @@ animation: myfade 3s;
     display: block;
     width: 40rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .hrScreenImage  {
+      width: 30rem;
+    }
+  }
+
+  @media only screen and (max-width: 530px) {
+    .hrScreenImage  {
+      width: 25rem;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .hrScreenImage {
+      width: 20rem;
+    }
+ 
+  }
 
 figcaption {
     /*background-color: #000000;*/
