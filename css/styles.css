@@ -132,11 +132,12 @@ a.btn:hover {
 
 .header {
    /* background: #FF7777; */
-   position: relative;
-    background-image: url('../images/queenstown.jpg');
+    position: relative;
+    background-image: url('../images/mt.webp');
     background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
-   min-height: 100%;
+    min-height: 100%;
 }
 
 .header a {
@@ -214,8 +215,6 @@ a.btn:hover {
     margin: 0 auto;
     height: 5rem;
 }
-
-
 
 /* Page Nav */
 .page-nav-wrapper {
@@ -1153,11 +1152,11 @@ Contact section start here
   }
    .scroll-btn {
     display: block;
-    position: absolute;
+    margin-top: 2rem;
     left: 0;
     right: 0;
     text-align: center;
-    margin-top: 100px;
+
   }
   .scroll-btn > * {
     display: inline-block;
@@ -1208,11 +1207,34 @@ Contact section start here
     animation: ani-mouse 2.5s linear infinite;
 
   }
-    @media only screen and (max-width: 768px) {
+
+
+
+  /* #bioParagraph {
+    font-size: 1.2rem;
+  } */
+  
+    /* @media only screen and (max-width: 768px) {
         .scroll-btn {
         display: none;
         }
-      }
+      } */
+/* 
+      @media only screen and (max-width: 1000px) {
+        #bioParagraph {
+            font-size: 2rem;
+        }
+      }   */
+
+
+      @media only screen and (max-width: 540px) {
+        #bioParagraph {
+            font-size: 1rem;
+        }
+         .top-bar {
+            display: none;
+        }
+      }  
 
     @media only screen and (max-width: 1000px) {
         .location {
